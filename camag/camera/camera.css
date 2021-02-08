@@ -1,0 +1,106 @@
+body
+{
+background-color : grey;
+}
+
+a
+{
+color:black;
+}
+
+header
+{
+width : 99%;
+height :100px;
+/*background-color: #87CEFA;*/
+/*margin-bottom=7px;*/
+border-radius : 10px;
+text-align :center;
+}
+
+.pourupload
+{
+    background-color: blue;
+}
+
+section
+{
+width :70%;
+height : 850px;
+background-color : white;
+float:left;
+border-radius : 10px;
+margin-top : 7px;
+margin-bottom : 7px;
+margin-right : 4%;
+margin-left : 4%;
+/*background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvc9lA_bpimLc3yyhR6gLJ8sOsS6Wz3XPnBsLSOIjQvMq1BfMg&s");
+background-repeat: no-repeat;*/
+background-position:50% 0%;
+}
+
+aside
+{
+width :15%;
+height: 850px;
+/*background-color : yellow;*/
+float : left;
+border-radius : 10px;
+margin-top : 7px;
+margin-left : 7px;
+}
+
+footer
+{
+width : 99%;
+height : 100px;
+background-color : white;
+float: right;
+/*margin-top = 7px;*/
+border-radius : 10px;
+}
+
+/*.droit
+{
+width : 200px;
+height : 200px;
+border-radius: 10px;
+margin-bottom : 10px;
+}*/
+
+
+/*#hautcam
+{
+width : 50%;
+height : 300px;
+}*/
+
+#divcam
+{
+width:50%;
+height:200px;
+}
+
+/* Pour la camera */
+canvas {
+    display: none;
+}
+video,.chat,#startbutton {
+    display: block;
+    float: left;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+#startbutton {
+    background: green;
+    border: none;
+    color: #fff;
+    margin: 100px 20px 20px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+#container {
+    overflow: hidden;
+    width: 880px;
+    margin: 20px auto;
+}
